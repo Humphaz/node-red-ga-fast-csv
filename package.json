@@ -1,5 +1,5 @@
 {
-  "name": "node-red-contrib-fast-csv",
+  "name": "node-red-contrib-ga-csv",
   "version": "0.4.0",
   "description": "Node-Red node using fast-csv parser/formatter",
   "main": "node/fastcsv.js",
@@ -14,14 +14,14 @@
     "node-red",
     "fast-csv"
   ],
-  "author": "Kim McKinley",
+  "author": "Kim McKinley - Glyn Humphreys (fix)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/PotOfCoffee2Go/node-red-contrib-fast-csv/issues"
   },
   "homepage": "https://github.com/PotOfCoffee2Go/node-red-contrib-fast-csv#readme",
   "dependencies": {
-    "fast-csv": "^2.4.0"
+    "fast-csv": "^4.3.6"
   },
   "node-red": {
     "nodes": {
