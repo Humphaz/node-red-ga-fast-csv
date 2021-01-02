@@ -53,7 +53,7 @@ module.exports = function(RED) {
         function parseCsv(msg) {
             var parsedObj = [];
             csv
-                .fromString(msg.payload, node.options)
+                .parseString(msg.payload, node.options)
                 .on("data", function(data){
                     parsedObj.push(data);
                 })
