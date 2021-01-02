@@ -1,5 +1,7 @@
-# node-red-contrib-fast-csv
+# node-red-ga-fast-csv
 Node-Red node using fast-csv parser/formatter
+
+I've forked it simply to update the dependency.
 
 This is a drop-in replacement for the node-red default `csv` node. The node
 uses the [C2FO fast-csv](https://github.com/C2FO/fast-csv) library to perform
